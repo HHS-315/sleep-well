@@ -1,0 +1,103 @@
+/* Sleep Well design system tokens (from _ds/sleep-well-design-system/tokens/*.css) */
+
+/* NM (grotesk) — original files from the reference site */
+@font-face{font-family:"NM";src:url("../assets/fonts/nm-light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"NM";src:url("../assets/fonts/nm-regular.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"NM";src:url("../assets/fonts/nm-medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap}
+
+:root {
+  /* colors — base */
+  --cream-100: #fef1d0;
+  --cream-200: #f6e4b8;
+  --ink-900: #333333;
+  --black: #010101;
+  --black-2: #101010;
+  --pure-black: #000000;
+  --white: #ffffff;
+  --blue-700: #0042af;
+  --blue-600: #2451b5;
+  --blue-400: #4589f7;
+  --blue-400-hover: #3b74d2;
+  --navy-800: #002e77;
+  --navy-900: #010d6e;
+  --navy-900-hover: #011084;
+  --star: #f5c542;
+
+  /* colors — semantic */
+  --surface-page: var(--cream-100);
+  --surface-night: var(--navy-900);
+  --surface-night-2: var(--blue-700);
+  --surface-ink: var(--black);
+  --surface-card: var(--cream-100);
+  --text-body: var(--ink-900);
+  --text-strong: var(--black);
+  --text-on-night: var(--cream-100);
+  --text-accent: var(--blue-700);
+  --text-accent-soft: var(--blue-400);
+  --link: var(--blue-700);
+  --link-hover: var(--navy-900);
+  --link-on-night-hover: var(--white);
+  --action-primary: var(--blue-700);
+  --action-primary-hover: var(--navy-800);
+  --action-secondary: var(--blue-400);
+  --action-secondary-hover: var(--blue-400-hover);
+  --action-deep: var(--navy-900);
+  --action-deep-hover: var(--navy-900-hover);
+  --border-accent: var(--blue-700);
+  --border-accent-2: var(--blue-600);
+  --border-soft: var(--blue-400);
+  --border-on-night: var(--cream-100);
+  --gradient-night: linear-gradient(180deg, #010d6e 0%, #1a24a8 55%, #3a4fd0 78%, #010d6e 100%);
+
+  /* typography — "Editorial" is substituted by Cormorant Garamond */
+  --font-display: "Cormorant Garamond", "Noto Serif KR", "Times New Roman", serif;
+  --font-body: "NM", "Pretendard", "Helvetica Neue", Arial, sans-serif;
+  --font-display-kr: "Noto Serif KR", serif;
+  --weight-thin: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --fs-display-xl: 135px;
+  --fs-display-l: 87px;
+  --fs-display-m: 69px;
+  --fs-h1: 51px;
+  --fs-body-xl: 25px;
+  --fs-body-l: 24px;
+  --fs-body-m: 22px;
+  --fs-body: 20px;
+  --fs-body-s: 19px;
+  --fs-small: 16px;
+  --fs-link: 14px;
+  --fs-caption: 12px;
+  --fs-text-serif-l: 23px;
+  --fs-text-serif: 17px;
+  --lh-display: 0.95;
+  --lh-heading: 1.1;
+  --lh-body: 1.4;
+  --tracking-display-wide: 0.18em;
+  --tracking-caps: 0.04em;
+  --tracking-tight: -0.02em;
+
+  /* spacing */
+  --gutter: 30px;
+  --section-y: 120px;
+  --page-x: clamp(30px, 5vw, 96px);
+  --radius-card: 15px;
+  --radius-pill: 650px;
+  --radius-round: 50%;
+
+  /* effects */
+  --border-accent-2px: 2px solid var(--blue-700);
+  --border-accent-2-2px: 2px solid var(--blue-600);
+  --border-soft-1px: 1px solid var(--blue-400);
+  --border-cream-1px: 1px solid var(--cream-100);
+  --border-cream-2px: 2px solid var(--cream-100);
+  --dur-1: 0.15s;
+  --dur-2: 0.25s;
+  --dur-3: 0.3s;
+  --dur-4: 0.4s;
+  --dur-5: 0.5s;
+  --dur-6: 0.6s;
+  --ease: ease-in-out;
+  --ease-out: ease-out;
+  --press-scale: 0.96;
+}

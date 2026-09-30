@@ -1,0 +1,39 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: var(--h);
+  padding: 0 var(--px);
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--bd);
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--fs);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    background-color var(--dur-3) var(--ease-out),
+    color var(--dur-3) var(--ease-out),
+    transform var(--dur-3) var(--ease-out);
+}
+.button:hover:not(:disabled) { background: var(--hbg); color: var(--hfg, var(--fg)) }
+.button:active:not(:disabled) { transform: scale(var(--press-scale)) }
+.button:focus-visible { outline: 2px solid var(--blue-400); outline-offset: 3px }
+.button:disabled { cursor: not-allowed; opacity: .4 }
+.fullWidth { width: 100% }
+
+.sm { --h: 36px; --px: 18px; --fs: 12px }
+.md { --h: 46px; --px: 26px; --fs: 14px }
+.lg { --h: 58px; --px: 35px; --fs: 16px }
+
+.primary   { --bg: var(--blue-700); --hbg: var(--navy-800);        --fg: var(--cream-100); --bd: transparent }
+.secondary { --bg: var(--blue-400); --hbg: var(--blue-400-hover);  --fg: var(--cream-100); --bd: transparent }
+.deep      { --bg: var(--navy-900); --hbg: var(--navy-900-hover);  --fg: var(--cream-100); --bd: transparent }
+.cream     { --bg: var(--cream-100); --hbg: var(--white);          --fg: var(--blue-700);  --bd: transparent }
+.outline   { --bg: transparent; --hbg: var(--blue-700);  --fg: var(--blue-700);  --hfg: var(--cream-100); --bd: var(--blue-700) }
+.outlineNight { --bg: transparent; --hbg: var(--cream-100); --fg: var(--cream-100); --hfg: var(--blue-700); --bd: var(--cream-100) }
