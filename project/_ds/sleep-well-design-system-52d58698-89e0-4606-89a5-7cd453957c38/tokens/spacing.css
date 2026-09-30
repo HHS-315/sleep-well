@@ -1,0 +1,6 @@
+:root{
+--space-10:10px;--space-11:11px;--space-13:13px;--space-14:14px;--space-20:20px;--space-25:25px;--space-26:26px;--space-28:28px;--space-30:30px;--space-35:35px;--space-45:45px;--space-48:48px;--space-50:50px;--space-60:60px;--space-62:62.5px;
+--gutter:var(--space-30);--section-y:120px;
+--radius-card:15px;--radius-pill:650px;--radius-round:50%;
+--bp-desktop:1025px;/* @kind other */--bp-tablet:991px;/* @kind other */--bp-mobile-l:767px;/* @kind other */--bp-mobile:479px;/* @kind other */
+}

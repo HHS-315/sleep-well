@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Noto+Serif+KR:wght@200;300&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+/* NM (grotesk) — original files from the reference site */
+@font-face{font-family:"NM";src:url("../fonts/nm-light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"NM";src:url("../fonts/nm-regular.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"NM";src:url("../fonts/nm-medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap}
+/* SUBSTITUTE: "Editorial" (thin display serif) was not downloadable — Cormorant Garamond from Google Fonts stands in.
+   Korean: Noto Serif KR (display) + Pretendard (body). */

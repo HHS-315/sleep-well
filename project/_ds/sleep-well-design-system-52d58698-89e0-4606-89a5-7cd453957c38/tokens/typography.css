@@ -1,0 +1,11 @@
+:root{
+--font-display:"Cormorant Garamond","Noto Serif KR","Times New Roman",serif; /* stand-in for Editorial */
+--font-body:"NM","Pretendard","Helvetica Neue",Arial,sans-serif;
+--font-display-kr:"Noto Serif KR",serif;
+--weight-thin:300;--weight-regular:400;--weight-medium:500;
+--fs-display-xl:135px;--fs-display-l:87px;--fs-display-m:69px;--fs-h1:51px;
+--fs-body-xl:25px;--fs-body-l:24px;--fs-body-m:22px;--fs-body:20px;--fs-body-s:19px;--fs-small:16px;--fs-link:14px;--fs-caption:12px;
+--fs-text-serif-l:23px;--fs-text-serif:17px;
+--lh-display:0.95;/* @kind other */--lh-heading:1.1;/* @kind other */--lh-body:1.4;/* @kind other */
+--tracking-display-wide:0.18em;--tracking-caps:0.04em;--tracking-tight:-0.02em;
+}

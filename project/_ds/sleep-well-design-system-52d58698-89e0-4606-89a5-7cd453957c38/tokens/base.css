@@ -1,0 +1,4 @@
+html{-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--surface-page);color:var(--text-body);font-family:var(--font-body);font-weight:var(--weight-regular)}
+a{color:var(--link);text-decoration:underline;transition:color var(--dur-3) var(--ease-out)}
+a:hover{color:var(--link-hover)}

@@ -1,0 +1,43 @@
+:root{
+/* base */
+--cream-100:#fef1d0;
+--cream-200:#f6e4b8;
+--ink-900:#333333;
+--black:#010101;
+--black-2:#101010;
+--pure-black:#000000;
+--white:#ffffff;
+--blue-700:#0042af;
+--blue-600:#2451b5;
+--blue-400:#4589f7;
+--blue-400-hover:#3b74d2;
+--navy-800:#002e77;
+--navy-900:#010d6e;
+--navy-900-hover:#011084;
+--star:#f5c542;
+/* semantic */
+--surface-page:var(--cream-100);
+--surface-night:var(--navy-900);
+--surface-night-2:var(--blue-700);
+--surface-ink:var(--black);
+--surface-card:var(--cream-100);
+--text-body:var(--ink-900);
+--text-strong:var(--black);
+--text-on-night:var(--cream-100);
+--text-accent:var(--blue-700);
+--text-accent-soft:var(--blue-400);
+--link:var(--blue-700);
+--link-hover:var(--navy-900);
+--link-on-night-hover:var(--white);
+--action-primary:var(--blue-700);
+--action-primary-hover:var(--navy-800);
+--action-secondary:var(--blue-400);
+--action-secondary-hover:var(--blue-400-hover);
+--action-deep:var(--navy-900);
+--action-deep-hover:var(--navy-900-hover);
+--border-accent:var(--blue-700);
+--border-accent-2:var(--blue-600);
+--border-soft:var(--blue-400);
+--border-on-night:var(--cream-100);
+--gradient-night:linear-gradient(180deg,#010d6e 0%,#1a24a8 55%,#3a4fd0 78%,#010d6e 100%);/* @kind color */
+}
